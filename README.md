@@ -6,7 +6,7 @@ once download...
 TO RUN THE FRONTEND 🙂-3000
 -----------------------------
 
-cd Frontend
+cd Frontend <BR/>
 npm install
 npm start
 
