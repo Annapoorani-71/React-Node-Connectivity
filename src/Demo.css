@@ -1,0 +1,134 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #c1e1ec, #ffffff); /* Optional: adds a subtle gradient */
+  }
+  
+  /* Main Container (Card) */
+  .container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  /* Heading */
+  .head1 {
+    font-size: 1.5rem;
+    color: #2c5282;
+    margin-bottom: 15px;
+    font-weight: bold;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Form Section */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 15px;
+  }
+  
+  #label_input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  #label_input label {
+    font-size: 0.85rem;
+    color: #4a5568;
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  #label_input input {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #a0aec0;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: border 0.2s ease;
+  }
+  
+  #label_input input:focus {
+    border-color: #4299e1;
+    outline: none;
+  }
+  
+  /* Buttons */
+  button {
+    display: inline-block;
+    background-color: #3182ce;
+    color: #fff;
+    border: none;
+    padding: 8px 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #2b6cb0;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+  }
+  
+  /* List Items */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+  }
+  
+  li {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #edf2f7;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  li button {
+    background-color: #e53e3e;
+    font-size: 0.75rem;
+    padding: 4px 8px;
+  }
+  
+  li button:hover {
+    background-color: #c53030;
+  }
+  
+  /* Keyframes for animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

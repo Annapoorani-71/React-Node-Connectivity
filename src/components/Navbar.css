@@ -1,0 +1,14 @@
+.nav-bar
+{
+    background-color: burlywood;
+    width: 100%;
+    justify-content: end;
+    gap: 30px;
+    text-align: center ;
+}
+#nav
+{
+    padding-right: 30px;
+    text-decoration: none;
+    color: blueviolet   ;
+}
