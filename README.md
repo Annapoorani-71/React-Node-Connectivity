@@ -10,8 +10,8 @@ cd Frontend <BR/>
 npm install<BR/>
 npm start<BR/>
 
-TO RUN THE BACKEND 😉-5000(express)<BR/>
--------------------------------------<BR/>
+TO RUN THE BACKEND 😉-5000(express PORT not express)<BR/>
+----------------------------------------------------<BR/>
 <BR/>
 cd Backend<BR/>
 npm install<BR/>
